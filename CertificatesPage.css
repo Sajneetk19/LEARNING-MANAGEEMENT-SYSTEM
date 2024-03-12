@@ -1,0 +1,268 @@
+ /* Upper section. */
+
+ .img-section {
+    background-image: url('bg5.jpg');
+   height: 80vh;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+  
+  }
+  
+  .text-area{
+    margin-top: -34%;
+    width: 50%;
+    margin-left: 3%;
+  }
+
+  .text-area2{
+    margin-top: 13%;
+    text-align: center;
+
+  }
+
+  .certificate-box{
+    background-color: #8ed0d2;
+    min-height: 70vh;
+    margin-top: 5%;
+
+}
+
+.text1 {
+    width: 50%;
+    margin-left: 4%;
+}
+
+.text1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: -47%;
+}
+
+
+
+.img{
+    margin-left: 60%;
+    margin-top: -16%;
+} 
+
+    
+
+/* Certificate Bottom text */
+
+
+p{
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+.heading{
+    font-size: 40px;
+}
+
+ul{
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+.bottom-texts{
+
+    margin-top: 8%;
+    width: 94%;
+    margin-left: 3%;
+    border-radius: 15px;
+    background-color: #ece3e3;
+    border: 1px solid grey;
+}
+
+.bottom-texts ul {
+    list-style-type: disc; 
+    margin-left: 2%;
+  }
+
+  
+/*footer*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 70px 0;
+    margin-top: 5%
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+/*slider*/
+.slider-container {
+    width: 95%;
+    /* margin: 0 auto; */
+    overflow: hidden;
+    background-color: lightblue;
+    margin-top: 1%;
+    margin-left: 3%;
+    height: 95vh;
+    border-radius: 13px;
+  }
+
+  .certification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+
+  }
+
+  .slide {
+    flex: 0 0 auto;
+    width: 19%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #8e8383;
+    /* padding: 1%; */
+    background-color: white;
+    margin-left: 2%;
+    margin-top: 1%;
+    border-radius: 16px;
+  }
+
+  .slide img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .buttons {
+    background-color: rgb(13, 15, 156);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .buttons:hover {
+    background-color: rgb(45, 43, 171);
+  }
+
+  .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+  }
+
+  .slick-dots li {
+    margin: 0 5px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    font-size: 30px;
+    color: rgb(10, 10, 10);
+    z-index: 1;
+  }
+
+  .slick-next {
+    right: 0;
+  }
+
+  .slider{
+    display: flex;
+    width: 90%;
+    margin-left: -7%;
+    
+  }
